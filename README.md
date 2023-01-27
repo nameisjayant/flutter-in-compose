@@ -30,4 +30,26 @@ dependencies {
 
 }  
 ```
+### How to use it !
+
+##### 1). Flutter's List tile Widget in compose
+
+```kotlin
+@Composable
+fun ListTile(
+    modifier: Modifier = Modifier,
+    backgroundColor: Color = Color.Transparent,
+    elevation: Dp = 0.dp,
+    shape: Shape = RoundedCornerShape(0.dp),
+    borderStroke: BorderStroke = BorderStroke(0.dp, Color.Transparent),
+    leading: @Composable () -> Unit = {},
+    trailing: @Composable () -> Unit = {},
+    title: @Composable () -> Unit = {},
+    subTitle: @Composable () -> Unit = {},
+    horizontalTitleGap:Dp = 5.dp,
+    contentPadding:Dp = 15.dp,
+    onTap: () -> Unit = {}
+) {....}
+```
+
 Please drop a star if you like it ❤️
