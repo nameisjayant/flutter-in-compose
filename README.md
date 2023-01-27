@@ -30,7 +30,7 @@ dependencies {
 
 }  
 ```
-### How to use it !
+## How to use it !
 
 ##### 1). Flutter's List tile Widget in compose
 
@@ -50,6 +50,23 @@ fun ListTile(
     contentPadding:Dp = 15.dp,
     onTap: () -> Unit = {}
 ) {....}
+```
+
+##### 2). Flutter's List tile check box Widget in compose.
+
+```kotlin
+@Composable
+fun ListTileCheckbox(
+    title: @Composable () -> Unit,
+    modifier: Modifier = Modifier,
+    shape: Shape = RoundedCornerShape(8.dp),
+    selected: Boolean,
+    borderStroke: BorderStroke = BorderStroke(1.dp, Color.Gray),
+    size: Dp = 25.dp,
+    backgroundColor: Color = MaterialTheme.colors.primary,
+    checkedColor: Color = Color.White,
+    onChangeValue: (Boolean) -> Unit
+) {...}
 ```
 
 Please drop a star if you like it ❤️
