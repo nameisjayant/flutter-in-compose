@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The main motive of this library is to build inbuilt flutter widgets in compose.
+The main motive of this library is to build flutter widgets in compose.
 
 ## Setup
 
