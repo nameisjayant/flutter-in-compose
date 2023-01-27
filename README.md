@@ -1,4 +1,4 @@
-# flutter-in-compose
+# Flutter In Compose
 
 ## Introduction
 
