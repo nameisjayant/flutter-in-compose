@@ -61,5 +61,7 @@ dependencies {
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_ui_version"
     debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_ui_version"
     implementation project(':flutter-in-compose')
+   // implementation "com.github.nameisjayant:flutter-in-compose:1.0.0"
+
 
 }
