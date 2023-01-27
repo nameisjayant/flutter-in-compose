@@ -32,26 +32,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    Column() {
-                        (1..5).forEach {
-                            ListTile(
-                                leading = { Icon(Icons.Default.Home, contentDescription = "") },
-                                trailing = {
-                                    IconButton(onClick = { }, modifier = Modifier.size(25.dp)) {
-                                        Icon(Icons.Default.MoreVert, contentDescription = "")
-                                    }
-                                },
-                                title = { Text(text = "Title$it") },
-                                subTitle = { Text(text = "Subtitle $it") },
-                                backgroundColor = Color.Gray.copy(alpha = 0.1f),
-                                elevation = 2.dp,
-                                shape = RoundedCornerShape(8.dp),
-                                borderStroke = BorderStroke(2.dp, Color.Black),
-                                horizontalTitleGap = 5.dp,
-                                contentPadding = 15.dp
-                            )
-                        }
-                    }
+
 
                 }
             }
