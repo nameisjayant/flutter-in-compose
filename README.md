@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The main motive of this library is to build flutter widgets in compose.
+A library which builds flutter widgets and custom ui's in compose 😍
 
 ## Setup
 
