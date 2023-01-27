@@ -1,5 +1,9 @@
 # flutter-in-compose
 
+## Introduction
+
+The main motive of this library is to build inbuilt flutter widgets in compose.
+
 ## Setup
 
 To add flutter-in-compose library, add this dependency,
