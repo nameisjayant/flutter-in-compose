@@ -69,4 +69,4 @@ fun ListTileCheckbox(
 ) {...}
 ```
 
-Please drop a star if you like it ❤️
+Please drop a star if you liked it ❤️
